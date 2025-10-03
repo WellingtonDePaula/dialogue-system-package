@@ -25,5 +25,12 @@
       "name": "MIT",
       "url": "https://github.com/WellingtonDePaula/dialogue-system-package/blob/main/LICENSE"
     }
+  ],
+    "samples": [
+    {
+      "displayName": "Basic Integration Sample",
+      "description": "Includes a basic scene and ScriptableObjects to demonstrate core usage.",
+      "path": "Samples~"
+    }
   ]
 }
