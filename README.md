@@ -30,13 +30,29 @@ https://github.com/WellingtonDePaula/dialogue-system-package.git?path=/com.wellz
 
 ## ⚠️ Known Issues / Current Status
 
-I'm currently working on integrating example scenes and prefabs.
+I am currently working on integrating user-friendly example scenes and prefabs.
 
-**Important Note:** The Unity Package Manager is not yet correctly recognizing the **Samples** folder structure. If you need to access the demonstration assets (scenes, prefabs, etc.):
+### Temporary Sample Access
+The Unity Package Manager is **not yet correctly recognizing the dedicated Samples structure**. If you need to access the demonstration assets (scenes, prefabs, etc.) right now, you must import them manually:
 
-1.  Go to https://github.com/WellingtonDePaula/dialogue-system.
-2.  Manually **copy** the contents of the `Prefabs` folder or `Scenes` folder into your project's main **`Assets`** folder.
+1.  Go to the repository on GitHub: https://github.com/WellingtonDePaula/dialogue-system
+2.  Navigate to the `Assets` folder.
+3.  Manually **copy** the contents of the following folders into your project's main **`Assets`** folder:
+    * **`Prefabs`** (for the Dialogue UI prefab).
+    * **`Scenes`** and **`Data`** (for the Basic Integration example).
 
+### Manual Setup (Basic Integration)
+If you choose the **Basic Integration** option, the scene assets will require manual configuration after being copied:
+
+1.  Open the copied `SampleScene` and select the **DialogueManager** GameObject.
+2.  In the Inspector window for the `DialogueManager` script, drag the following assets to their respective slots:
+    * The Dialogue UI prefab.
+    * The Canvas GameObject from the scene.
+    * The Game Events located in `Data/Events/Dialogues/Inputs`, they have very intuitive names.
+3.  Select the **InputManager** GameObject in the scene.
+4.  In the Inspector window for the `PlayerInputReader` script, drag the **same input events** that you used for the DialogueManager to their respective slots.
+
+I expect to resolve the UPM Samples recognition issue in the next update to enable direct one-click import.
 ---
 
 ## 📄 License
