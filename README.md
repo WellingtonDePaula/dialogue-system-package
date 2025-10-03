@@ -28,6 +28,17 @@ https://github.com/WellingtonDePaula/dialogue-system-package.git?path=/com.wellz
 
 ---
 
+## ⚠️ Known Issues / Current Status
+
+I'm currently working on integrating example scenes and prefabs.
+
+**Important Note:** The Unity Package Manager is not yet correctly recognizing the **Samples** folder structure. If you need to access the demonstration assets (scenes, prefabs, etc.):
+
+1.  Go to https://github.com/WellingtonDePaula/dialogue-system.
+2.  Manually **copy** the contents of the `Prefabs` folder or `Scenes` folder into your project's main **`Assets`** folder.
+
+---
+
 ## 📄 License
 
 This project is distributed under the **MIT License**. You are free to use, modify, and distribute this package in your personal and commercial projects.
