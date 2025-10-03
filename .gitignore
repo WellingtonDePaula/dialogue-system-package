@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Logs/
+/UserSettings/
+*.unityproj
+*.csproj
+*.sln
+*.pidb
+*.suo
+*.user
+*.userprefs

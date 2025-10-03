@@ -1,0 +1,54 @@
+{
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "UI",
+            "id": "04524f48-ba8c-42b2-99c8-c43706a1cd47",
+            "actions": [
+                {
+                    "name": "Next Dialogue Node",
+                    "type": "Button",
+                    "id": "6b48949c-6038-4f46-b76f-e463e8facd2e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Skip Dialogue Node",
+                    "type": "Button",
+                    "id": "efd238e2-b9aa-4aac-bdc1-51a21103b25f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b640849c-b997-47b2-92cd-69047375b0e6",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Dialogue Node",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "523a504e-1016-451d-8807-311f768268f9",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Dialogue Node",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
