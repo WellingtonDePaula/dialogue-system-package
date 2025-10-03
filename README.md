@@ -17,7 +17,7 @@ The recommended way to install the **Wellz Dialogue System** is by using a Git U
 3.  Click the **Add** button (`+`) in the upper-left corner.
 4.  Select **Add package from git URL...**
 5.  Paste the following URL, which points to the package's subfolder within the repository:
-https://github.com/WellingtonDePaula/dialogue-system-package
+https://github.com/WellingtonDePaula/dialogue-system-package.git?path=/com.wellz.dialogue-system
 6.  Click **Add**. The Package Manager will clone the repository and import the dialogue system into your project.
 
 ---
