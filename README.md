@@ -32,6 +32,20 @@ https://github.com/WellingtonDePaula/dialogue-system-package.git?path=/com.wellz
 
 I am currently working on integrating user-friendly example scenes and prefabs.
 
+### Dialogue UI Prefab Configuration
+
+If you are manually setting up the Dialogue UI Prefab, follow these steps to connect the components:
+
+1.  **Open the DialogueUI Prefab** for editing.
+2.  Select the root **DialogueUI** GameObject (or the GameObject where the main UI script is attached).
+3.  Ensure the **DialogueUI.cs** script component is attached to this GameObject.
+4.  In the Inspector window, drag the following UI elements from the prefab hierarchy into the script's fields:
+    * Drag **TxtContent** to the **Dialogue Content** field.
+    * Drag **TxtSpeakerName** to the **Speaker Name** field.
+    * Drag **ImgSpeakerIcon** to the **Speaker Icon** field.
+
+This ensures your script correctly references the UI elements for runtime display.
+
 ### Temporary Sample Access
 The Unity Package Manager is **not yet correctly recognizing the dedicated Samples structure**. If you need to access the demonstration assets (scenes, prefabs, etc.) right now, you must import them manually:
 
@@ -40,6 +54,7 @@ The Unity Package Manager is **not yet correctly recognizing the dedicated Sampl
 3.  Manually **copy** the contents of the following folders into your project's main **`Assets`** folder:
     * **`Prefabs`** (for the Dialogue UI prefab).
     * **`Scenes`** and **`Data`** (for the Basic Integration example).
+4. Need to do the [Dialogue UI Prefab Configuration](#dialogue-ui-prefab-configuration) and the [Manual Setup (Basic Integration)](#manual-setup-basic-integration)
 
 ### Manual Setup (Basic Integration)
 If you choose the **Basic Integration** option, the scene assets will require manual configuration after being copied:
@@ -53,6 +68,7 @@ If you choose the **Basic Integration** option, the scene assets will require ma
 4.  In the Inspector window for the `PlayerInputReader` script, drag the **same input events** that you used for the DialogueManager to their respective slots.
 
 I expect to resolve the UPM Samples recognition issue in the next update to enable direct one-click import.
+
 ---
 
 ## 📄 License
