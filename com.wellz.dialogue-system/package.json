@@ -1,10 +1,10 @@
 {
   "name": "com.wellz.dialogue-system",
-    "dependencies": {
+  "dependencies": {
     "com.unity.ugui": "2.0.0",
     "com.unity.inputsystem": "1.14.0"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Wellz Dialogue System",
   "description": "A robust, modular dialogue system for Unity.",
   "unity": "2021.3",
@@ -13,7 +13,6 @@
     "dialogue",
     "system",
     "narrative",
-    "editor-tool",
     "gamedev"
   ],
   "author": {
@@ -25,5 +24,17 @@
       "name": "MIT",
       "url": "https://github.com/WellingtonDePaula/dialogue-system-package/blob/main/LICENSE"
     }
-  ]
+  ],
+      "samples": [
+        {
+            "displayName": "Introduction",
+            "description": "Contains a sample data and scene for example the system.",
+            "path": "Samples~/Introduction"
+        },
+        {
+            "displayName": "SamplePrefabs",
+            "description": "Contains dialogues UI prefabs samples.",
+            "path": "Samples~/SamplePrefabs"
+        }
+    ]
 }
