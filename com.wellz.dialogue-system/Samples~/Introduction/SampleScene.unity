@@ -119,22 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &104628396 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-  m_PrefabInstance: {fileID: 1849985905142837701}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &104628398 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3544038156863788162, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-  m_PrefabInstance: {fileID: 1849985905142837701}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6496fc48b5646d45a29ba51645da17a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::DialogueManager
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -355,7 +339,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 104628398}
+      - m_Target: {fileID: 2919048942871078215}
         m_TargetAssemblyTypeName: DialogueManager, com.wellz.dialogue-system.runtime
         m_MethodName: StartDialogue
         m_Mode: 2
@@ -778,70 +762,74 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 104628396}
+  - {fileID: 3540764641689804103}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1849985905142837701
-PrefabInstance:
+--- !u!114 &2919048942871078215
+MonoBehaviour:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7508834451143429720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6496fc48b5646d45a29ba51645da17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::DialogueManager
+  _dialogueUIPrefab: {fileID: 222556520038585001, guid: 086ecbc5ba2830e4c93adaf740559901, type: 3}
+  _canvas: {fileID: 621118455}
+  _onNextDialogueEvent: {fileID: 11400000, guid: 71b3f2b6cc44ced4688d8b478f7a43c4, type: 2}
+  _onSkipStartedEvent: {fileID: 11400000, guid: db5ff394f1b7bb541b32e03bfdc2a6e8, type: 2}
+  _onSkipCanceledEvent: {fileID: 11400000, guid: b206b5a6ad62a6c489917b8a6a9e4502, type: 2}
+--- !u!4 &3540764641689804103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7508834451143429720}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1592107001}
-    m_Modifications:
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2922601753992735874, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3544038156863788162, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: _canvas
-      value: 
-      objectReference: {fileID: 621118455}
-    - target: {fileID: 8185509232856678301, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
-      propertyPath: m_Name
-      value: DialogueManager
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 8858e58ee99b9364b98188b9fe86fb2d, type: 3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1592107001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7508834451143429720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3540764641689804103}
+  - component: {fileID: 2919048942871078215}
+  - component: {fileID: 8858335513037473733}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &8858335513037473733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7508834451143429720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2456e360f1fd74d438488e9edad74d17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::PlayerInputReader
+  _nextDialogueEvent: {fileID: 11400000, guid: 71b3f2b6cc44ced4688d8b478f7a43c4, type: 2}
+  _skipStartedEvent: {fileID: 11400000, guid: db5ff394f1b7bb541b32e03bfdc2a6e8, type: 2}
+  _skipCanceledEvent: {fileID: 11400000, guid: b206b5a6ad62a6c489917b8a6a9e4502, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
