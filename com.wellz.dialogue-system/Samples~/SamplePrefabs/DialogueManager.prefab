@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6496fc48b5646d45a29ba51645da17a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::DialogueManager
-  _dialogueUIPrefab: {fileID: 222556520038585001, guid: 086ecbc5ba2830e4c93adaf740559901, type: 3}
+  _dialogueUIPrefab: {fileID: 222556520038585001, guid: c0fe76c3379c85a4980525905c45e3c3, type: 3}
   _canvas: {fileID: 0}
   _onNextDialogueEvent: {fileID: 11400000, guid: 71b3f2b6cc44ced4688d8b478f7a43c4, type: 2}
   _onSkipStartedEvent: {fileID: 11400000, guid: db5ff394f1b7bb541b32e03bfdc2a6e8, type: 2}
