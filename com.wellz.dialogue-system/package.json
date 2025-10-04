@@ -4,7 +4,7 @@
     "com.unity.ugui": "2.0.0",
     "com.unity.inputsystem": "1.14.0"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Wellz Dialogue System",
   "description": "A robust, modular dialogue system for Unity.",
   "unity": "6000.2",

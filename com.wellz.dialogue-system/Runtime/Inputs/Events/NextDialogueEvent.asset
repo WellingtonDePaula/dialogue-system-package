@@ -9,6 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6da661733757fb47bb3b7f3871bc367, type: 3}
-  m_Name: DialogueEnterEvent
-  m_EditorClassIdentifier: 
+  m_Script: {fileID: 11500000, guid: 331f2247c623c834a83ce0ab6f2425bc, type: 3}
+  m_Name: NextDialogueEvent
+  m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::GameEvent

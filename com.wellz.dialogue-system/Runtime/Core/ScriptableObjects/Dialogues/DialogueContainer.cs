@@ -4,11 +4,11 @@ using UnityEngine.Events;
 
 [CreateAssetMenu(fileName = "NewContainer", menuName = "Dialog/Container", order = 1)]
 public class DialogueContainer : ScriptableObject {
-    [Header("Eventos de Ação (Opcional)")]
+    [Header("Action Events (Optional)")]
     [SerializeField] private List<GameEvent> _onEnterEvent;
     [SerializeField] private List<GameEvent> _onExitEvent;
 
-    [Header("Todos nodes de Diálogos")]
+    [Header("All dialogues nodes")]
     public List<DialogueNode> allDialogs;
 
     public void OnEnterEvent() {

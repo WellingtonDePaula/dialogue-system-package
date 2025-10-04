@@ -4,6 +4,7 @@ public class DialogueManager : MonoBehaviour {
     public static DialogueManager Instance;
 
     [SerializeField] GameObject _dialogueUIPrefab;
+    [Tooltip("Canvas reference to instantiate the DialogueUI")]
     [SerializeField] Canvas _canvas;
 
     [Header("Input Listener Events")]

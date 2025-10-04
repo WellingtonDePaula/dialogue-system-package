@@ -3,15 +3,15 @@ using UnityEngine;
 using UnityEngine.Events;
 
 public abstract class DialogueNode : ScriptableObject {
-    [Header("Eventos de Ação (Opcional)")]
+    [Header("Action Events (Optional)")]
     [SerializeField] private List<GameEvent> _onEnterEvent;
     [SerializeField] private List<GameEvent> _onExitEvent;
 
-    [Header("Conteúdo Principal")]
+    [Header("Main dialogue content")]
     [TextArea(3, 10)] public string dialogueContent;
-    [Tooltip("Nome do ator da fala.")]
+    [Tooltip("Name of the speech actor")]
     public string speakerName;
-    [Tooltip("Imagem do ator da fala.")]
+    [Tooltip("Image of the speech actor")]
     public Sprite speakerIcon;
 
     public abstract DialogueType CreateBehaviour(DialogueUI ui);

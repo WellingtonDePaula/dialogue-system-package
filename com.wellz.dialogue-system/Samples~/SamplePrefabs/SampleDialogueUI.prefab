@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4517056327873182642}
-  - component: {fileID: 3042801442682454687}
+  - component: {fileID: 953258297513547001}
   m_Layer: 5
   m_Name: SampleDialogueUI
   m_TagString: Untagged
@@ -39,7 +39,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &3042801442682454687
+--- !u!114 &953258297513547001
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -48,9 +48,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 222556520038585001}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45d5077c4fdf5ae4b8f5f520780a8ab9, type: 3}
+  m_Script: {fileID: 11500000, guid: 55eec5a6840cc304f96218083b86731d, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: com.wellz.dialogue-system.runtime::DialogueUI
   _dialogueContent: {fileID: 3806965529509294914}
   _speakerName: {fileID: 3619537360753673514}
   _speakerIcon: {fileID: 7515552169892139290}
