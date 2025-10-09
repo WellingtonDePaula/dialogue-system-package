@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewDialog", menuName = "Dialog/Nodes/Typing", order = 1)]
+[CreateAssetMenu(fileName = "NewTDialog", menuName = "Dialogue/Nodes/Typing", order = 1)]
 public class TypingNode : DialogueNode {
     [Tooltip("Text typing speed (characters per second)")]
     [Min(0)] public float typingSpeed = 0.1f;

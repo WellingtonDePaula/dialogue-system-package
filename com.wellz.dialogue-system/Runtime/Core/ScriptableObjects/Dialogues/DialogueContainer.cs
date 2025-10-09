@@ -1,8 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
-[CreateAssetMenu(fileName = "NewContainer", menuName = "Dialog/Container", order = 1)]
+[CreateAssetMenu(fileName = "NewContainer", menuName = "Dialogue/Container", order = 1)]
 public class DialogueContainer : ScriptableObject {
     [Header("Action Events (Optional)")]
     [SerializeField] private List<GameEvent> _onEnterEvent;
